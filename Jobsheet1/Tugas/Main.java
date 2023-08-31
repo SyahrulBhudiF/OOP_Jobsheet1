@@ -2,10 +2,13 @@ package Tugas;
 
 public class Main {
     public static void main(String[] args) {
-        kucing kcng = new kucing("kucing", "Mamalia", "Daratan");
-        kcng.print();
-        kcng.bersuara();
-        System.out.println(kcng.eat("Whiskas"));
+        kucing kcng = new kucing("kucing", "Mamalia", "Daratan", "Bulu Pendek", "BSH", "Abu-abu");
+        kcng.printKcng();
+        kcng.bersuara("Meoooooooooooooooooooooooooooowwwwwwwwwww!!");
+        kcng.makan("Whiskas");
+        kcng.setEnergy(5);
+        kcng.bermain(2);
+        kcng.tidur(4);
         System.out.println("===========================\n");
 
         Nilai mhs = new Nilai("Asep", "2241720132", "4A", 3.5, 4, 3, 3.25);
@@ -15,7 +18,9 @@ public class Main {
         System.out.println("===========================\n");
 
         String matkul[] = { "OOP", "Web", "Mobile", "AI", "Matematika" };
-        matkul mk = new matkul("Asep", "2241720132", "4A", matkul);
+        String id[] = { "1", "2", "3", "4", "5" };
+        String sks[] = { "3", "2", "3", "3", "2" };
+        matkul mk = new matkul("Asep", "2241720132", "4A", matkul, id, sks);
         mk.printMatkul();
         System.out.println("===========================\n");
 
