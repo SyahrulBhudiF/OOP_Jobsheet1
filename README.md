@@ -5,6 +5,8 @@ NIM : 2241720167
 Kelas : 2F
 Absen : 26
 
+
+
 # Pertanyaan
 
 1. Jelaskan perbedaan antara objek dengan class!
@@ -24,3 +26,31 @@ Absen : 26
 5. Pada class SepedaGunung, jelaskan alasan atribut merk, kecepatan, dan gear tidak lagi ditulis di
    dalam class tersebut!
    _Jawaban : Karena pada class SepedaGunung sudah mewarisi seluruh attribut dan function dari class induknya maka dari itu tidak perlu lagi menuliskan attribut lagi_
+
+# Class 
+1.  - Class Mahasiswa <br>
+      ![image](https://github.com/SyahrulBhudiF/OOP_Jobsheet1/assets/113455742/f2486ecc-591b-4925-8a35-537eb7263175) <br>
+      attribut : Nama, Nim, Kelas, IPK <br>
+      Method : Constructor, print, setIPK, getIPK
+      - Class Nilai Extends Mahasiswa <br>
+      ![image](https://github.com/SyahrulBhudiF/OOP_Jobsheet1/assets/113455742/daa6d6b2-f003-4781-97b6-1d8471e6ade0) <br>
+      attribut : UTS, UAS, kuis, tugas <br>
+      method : Constructor, calcIPK, getPredikat
+      - Class matkul Extends Mahasiswa <br>
+      ![image](https://github.com/SyahrulBhudiF/OOP_Jobsheet1/assets/113455742/bfe2681f-3798-4428-b41a-b55649f1328c) <br>
+      attribut : Array namaMatkul, Array id, Array sks <br>
+      method : Constructor, print
+      - Class Hewan <br>
+      ![image](https://github.com/SyahrulBhudiF/OOP_Jobsheet1/assets/113455742/f55347c9-fd33-44df-b16c-286087ba655d) <br>
+      attribut : nama, jenis , habitat <br>
+      Method : Constructor, bersuara, eat, print
+      - Class Kucing Extend Hewan <br>
+      ![image](https://github.com/SyahrulBhudiF/OOP_Jobsheet1/assets/113455742/725eb199-479a-48b6-a109-7b7d7df401fb) <br>
+      attribut : bulu , ras, warna, Energy <br>
+      method : Constructor, setEnergy, bermain, tidur, makan, printKcng
+      - Class Laptop <br>
+      ![image](https://github.com/SyahrulBhudiF/OOP_Jobsheet1/assets/113455742/9960ab4f-28ec-4224-bb32-509d3e688e37) <br>
+      attribut : merk, proci, vga, ram, rom, price, baterai, stok <br>
+      method : Constructor, print, getStok, buyLaptop
+
+    
