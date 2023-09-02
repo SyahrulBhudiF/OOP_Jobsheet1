@@ -1,4 +1,4 @@
-public class sepeda{
+public class Sepeda{
     private String merek;
     private int kecepatan;
     private int gear;

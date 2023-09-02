@@ -1,8 +1,8 @@
 public class sepedaDemo {
     public static void main(String[] args) {
-        sepeda spd1 = new sepeda();
-        sepeda spd2 = new sepeda();
-        sepedaGunung spd3 = new sepedaGunung();
+        Sepeda spd1 = new Sepeda();
+        Sepeda spd2 = new Sepeda();
+        SepedaGunung spd3 = new SepedaGunung();
 
         spd1.setMerek("Poligone");
         spd1.tambahKecepatan(10);

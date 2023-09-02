@@ -1,4 +1,4 @@
-public class sepedaGunung extends sepeda {
+public class SepedaGunung extends Sepeda {
     private String tipeSuspensi;
 
     public void setTipeSuspensi(String newValue){
